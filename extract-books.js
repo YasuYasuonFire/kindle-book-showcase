@@ -8,13 +8,27 @@ const outputFile = path.join(__dirname, 'data/books.json');
 function enhanceImageUrl(originalUrl) {
   if (!originalUrl) return originalUrl;
   
-  // Amazonの画像URLの解像度を高くする
-  // _SY160.jpg → _SY400.jpg に変更
-  // より高解像度で鮮明な画像を取得
-  const highResUrl = originalUrl
-    .replace('_SY160.jpg', '_SY400.jpg')
-    .replace('_SL160.jpg', '_SL400.jpg')
-    .replace('_SX160.jpg', '_SX400.jpg');
+  // Amazonの画像URLの解像度を最大化する
+  // 様々なサイズパターンに対応し、可能な限り高解像度版を取得
+  let highResUrl = originalUrl
+    // 標準的なサイズを高解像度に変換
+    .replace(/_SY160\./g, '_SY600.')
+    .replace(/_SL160\./g, '_SL600.')
+    .replace(/_SX160\./g, '_SX600.')
+    .replace(/_SY200\./g, '_SY600.')
+    .replace(/_SL200\./g, '_SL600.')
+    .replace(/_SX200\./g, '_SX600.')
+    .replace(/_SY300\./g, '_SY600.')
+    .replace(/_SL300\./g, '_SL600.')
+    .replace(/_SX300\./g, '_SX600.')
+    .replace(/_SY400\./g, '_SY600.')
+    .replace(/_SL400\./g, '_SL600.')
+    .replace(/_SX400\./g, '_SX600.');
+  
+  // サイズ指定がない場合は高解像度を追加
+  if (!highResUrl.includes('_S[YLX]')) {
+    highResUrl = highResUrl.replace(/\.jpg$/i, '_SY600.jpg');
+  }
     
   return highResUrl;
 }
@@ -39,16 +53,17 @@ function extractBookData() {
             
             if (kindleSync) {
               // ハイライトを抽出
-              const highlightMatches = content.match(/## Highlights\n([\s\S]*?)(?=\n---\n|$)/);
+              const highlightMatches = content.match(/## Highlights\n([\s\S]*?)$/);
               let highlights = [];
               
               if (highlightMatches) {
                 const highlightText = highlightMatches[1];
-                highlights = highlightText
+                // 最後の空の --- を除去してから分割
+                const cleanHighlightText = highlightText.replace(/\n---\s*$/, '');
+                highlights = cleanHighlightText
                   .split('\n---\n')
                   .map(h => h.trim())
-                  .filter(h => h.length > 0)
-                  .slice(0, 3); // 最初の3つのハイライトのみ
+                  .filter(h => h.length > 0); // すべてのハイライトを取得
               }
               
               // カテゴリを推測（ファイル名から）
