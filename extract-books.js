@@ -104,10 +104,22 @@ function extractBookData() {
       }
     });
     
-    // カテゴリとタイトルでソート
+    // カテゴリの表示順を定義（リーダーシップ・マネジメント系を上に、投資系を下に）
+    const categoryOrder = {
+      'マネジメント・リーダーシップ': 1,
+      '技術・エンジニア': 2,
+      'キャリア・働き方': 3,
+      '組織・職場環境': 4,
+      'その他': 5,
+      'お金・投資': 6
+    };
+
+    // カテゴリの優先順位とタイトルでソート
     books.sort((a, b) => {
       if (a.category !== b.category) {
-        return a.category.localeCompare(b.category);
+        const orderA = categoryOrder[a.category] || 999;
+        const orderB = categoryOrder[b.category] || 999;
+        return orderA - orderB;
       }
       return a.title.localeCompare(b.title);
     });
