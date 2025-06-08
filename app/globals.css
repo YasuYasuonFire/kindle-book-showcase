@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Noto Sans JP', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .book-card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .book-image {
+    @apply w-full h-48 object-cover rounded-t-lg;
+  }
+  
+  .category-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+    backdrop-filter: blur(4px);
+  }
+  
+  .highlight-text {
+    @apply text-sm text-gray-600 leading-relaxed;
+  }
+}
+
+/* 高解像度画像対応のカスタムスタイル - グレー背景を除去 */
+.book-image-container {
+  @apply relative aspect-[2/3] overflow-hidden;
+  min-height: 288px; /* h-72 相当 */
+  /* グレー背景を除去 */
+}
+
+.book-image-container img {
+  @apply transition-all duration-300 ease-in-out;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: auto;
+}
+
+.book-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* 画像セクションのスタイリング - シンプルに */
+.book-image-section {
+  @apply relative;
+  overflow: hidden;
+  /* 背景色とパディングを除去 */
+}
+
+.book-grid {
+  @apply grid gap-6;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+@media (max-width: 640px) {
+  .book-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .book-image-container {
+    min-height: 320px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .book-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
+
+@media (min-width: 1025px) {
+  .book-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
+
+/* Retinaディスプレイ対応 */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .book-image-container img {
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
+
+/* 文字制限用のスタイル */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 統計情報のスタイル */
+.stats-grid {
+  @apply grid gap-4;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.stat-card {
+  @apply bg-gradient-to-br from-white to-gray-50 rounded-lg p-4 shadow-sm border border-gray-100;
+}
+
+.stat-number {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+.stat-label {
+  @apply text-sm text-gray-600 mt-1;
+}
+
+/* 検索・フィルター用のスタイル */
+.search-container {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-6;
+}
+
+.search-input {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+}
+
+.filter-button {
+  @apply px-3 py-1.5 text-sm font-medium rounded-md transition-colors duration-200;
+}
+
+.filter-button.active {
+  @apply bg-blue-500 text-white;
+}
+
+.filter-button:not(.active) {
+  @apply bg-gray-100 text-gray-700 hover:bg-gray-200;
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* スクロール可能なコンテナ */
+.scrollable-container {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e0 #f7fafc;
+}
+
+.scrollable-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background: #f7fafc;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 3px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+} 
