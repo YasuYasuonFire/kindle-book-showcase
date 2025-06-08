@@ -26,36 +26,52 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className="bg-gray-50 min-h-screen font-japanese">
-        <header className="bg-white shadow-sm border-b">
+      <body className="min-h-screen font-inter text-gray-900 antialiased">
+        <header className="bg-white/80 backdrop-blur-lg shadow-lg border-b border-white/20 sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center py-6">
-              <div>
-                <h1 className="text-2xl font-bold text-gray-900">
-                  📚 Kindle書籍コレクション
-                </h1>
-                <p className="text-sm text-gray-600 mt-1">
-                  ビジネス・自己啓発書を中心とした厳選書籍の紹介
-                </p>
-              </div>
+            <div className="flex justify-between items-center py-8">
               <div className="flex items-center space-x-4">
-                <div className="text-sm text-gray-500">
-                  <span className="font-medium">80+</span> 冊を掲載
+                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center shadow-lg transform rotate-3 hover:rotate-0 transition-transform duration-300">
+                  <span className="text-2xl">📚</span>
+                </div>
+                <div>
+                  <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                    Kindle書籍コレクション
+                  </h1>
+                  <p className="text-base text-gray-600 mt-1 font-medium">
+                    ビジネス・自己啓発書を中心とした厳選書籍の紹介
+                  </p>
+                </div>
+              </div>
+              <div className="hidden md:flex items-center space-x-6">
+                <div className="bg-white/60 backdrop-blur-sm rounded-xl px-4 py-2 shadow-md">
+                  <div className="text-sm text-gray-600 font-medium">
+                    <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">80+</span>
+                    <span className="ml-1">冊を掲載</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </header>
         
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           {children}
         </main>
         
-        <footer className="bg-white border-t mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="text-center text-gray-600 text-sm">
-              <p>このサイトはKindleで読んだ書籍の個人的なコレクションです。</p>
-              <p className="mt-2">書籍の詳細情報は各Amazonリンクからご確認ください。</p>
+        <footer className="bg-white/80 backdrop-blur-lg border-t border-white/20 mt-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div className="text-center">
+              <div className="inline-flex items-center space-x-2 mb-4">
+                <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
+                  <span className="text-lg">📚</span>
+                </div>
+                <span className="text-lg font-semibold text-gray-800">Kindle書籍コレクション</span>
+              </div>
+              <div className="text-gray-600 text-sm space-y-2 max-w-md mx-auto">
+                <p className="font-medium">このサイトはKindleで読んだ書籍の個人的なコレクションです。</p>
+                <p>書籍の詳細情報は各Amazonリンクからご確認ください。</p>
+              </div>
             </div>
           </div>
         </footer>

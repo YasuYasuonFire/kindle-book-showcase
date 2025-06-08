@@ -1,18 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   html {
-    font-family: 'Noto Sans JP', system-ui, sans-serif;
+    font-family: 'Inter', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+    font-feature-settings: 'cv03', 'cv04', 'cv11';
+  }
+  
+  body {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #1a202c;
+  }
+  
+  * {
+    box-sizing: border-box;
   }
 }
 
 @layer components {
   .book-card {
-    @apply bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    @apply bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: perspective(1000px) rotateX(0deg);
   }
   
   .book-image {
@@ -20,8 +34,10 @@
   }
   
   .category-badge {
-    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
-    backdrop-filter: blur(4px);
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-feature-settings: 'ss01';
   }
   
   .highlight-text {
@@ -40,13 +56,14 @@
   @apply transition-all duration-300 ease-in-out;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
-  image-rendering: pixelated;
   image-rendering: auto;
+  filter: contrast(1.1) saturate(1.05) brightness(1.02) sharpen(1);
+  -webkit-filter: contrast(1.1) saturate(1.05) brightness(1.02);
 }
 
 .book-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-8px) perspective(1000px) rotateX(5deg);
+  box-shadow: 0 32px 64px -12px rgba(0, 0, 0, 0.25), 0 20px 40px -12px rgba(0, 0, 0, 0.15);
 }
 
 /* 画像セクションのスタイリング - シンプルに */
@@ -107,29 +124,43 @@
 
 /* 統計情報のスタイル */
 .stats-grid {
-  @apply grid gap-4;
+  @apply grid gap-6;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .stat-card {
-  @apply bg-gradient-to-br from-white to-gray-50 rounded-lg p-4 shadow-sm border border-gray-100;
+  @apply bg-white/90 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-white/20;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .stat-number {
-  @apply text-2xl font-bold text-gray-900;
+  @apply text-3xl font-bold;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-feature-settings: 'tnum';
 }
 
 .stat-label {
-  @apply text-sm text-gray-600 mt-1;
+  @apply text-sm font-medium text-gray-700 mt-2;
 }
 
 /* 検索・フィルター用のスタイル */
 .search-container {
-  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-6;
+  @apply bg-white/90 backdrop-blur-md rounded-2xl shadow-lg border border-white/20 p-6 mb-8;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%);
 }
 
 .search-input {
-  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  @apply w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all duration-300;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
 }
 
 .filter-button {

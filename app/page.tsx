@@ -92,10 +92,20 @@ export default function HomePage() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-64">
+      <div className="flex items-center justify-center min-h-96">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
-          <p className="mt-4 text-gray-600">書籍データを読み込み中...</p>
+          <div className="relative">
+            <div className="animate-spin rounded-full h-16 w-16 border-4 border-purple-200 mx-auto"></div>
+            <div className="animate-spin rounded-full h-16 w-16 border-4 border-purple-600 border-t-transparent mx-auto absolute top-0 left-1/2 transform -translate-x-1/2"></div>
+          </div>
+          <p className="mt-6 text-lg font-medium text-gray-700">書籍データを読み込み中...</p>
+          <div className="flex justify-center mt-4">
+            <div className="flex space-x-1">
+              <div className="w-2 h-2 bg-purple-500 rounded-full animate-bounce"></div>
+              <div className="w-2 h-2 bg-purple-500 rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
+              <div className="w-2 h-2 bg-purple-500 rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -104,37 +114,58 @@ export default function HomePage() {
   return (
     <div className="space-y-8">
       {/* 統計情報 */}
-      <div className="bg-white rounded-lg shadow-sm border p-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="text-center">
-            <div className="text-2xl font-bold text-blue-600">{books.length}</div>
-            <div className="text-sm text-gray-600">総書籍数</div>
+      <div className="stats-grid">
+        <div className="stat-card group">
+          <div className="flex items-center justify-between mb-2">
+            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+              <span className="text-2xl">📚</span>
+            </div>
+            <div className="stat-number">{books.length}</div>
           </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-green-600">
+          <div className="stat-label">総書籍数</div>
+        </div>
+        <div className="stat-card group">
+          <div className="flex items-center justify-between mb-2">
+            <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+              <span className="text-2xl">📝</span>
+            </div>
+            <div className="stat-number">
               {books.reduce((sum, book) => sum + book.highlightsCount, 0)}
             </div>
-            <div className="text-sm text-gray-600">総ハイライト数</div>
           </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-purple-600">{categories.length - 1}</div>
-            <div className="text-sm text-gray-600">カテゴリ数</div>
+          <div className="stat-label">総ハイライト数</div>
+        </div>
+        <div className="stat-card group">
+          <div className="flex items-center justify-between mb-2">
+            <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+              <span className="text-2xl">📋</span>
+            </div>
+            <div className="stat-number">{categories.length - 1}</div>
           </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-orange-600">
+          <div className="stat-label">カテゴリ数</div>
+        </div>
+        <div className="stat-card group">
+          <div className="flex items-center justify-between mb-2">
+            <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+              <span className="text-2xl">📊</span>
+            </div>
+            <div className="stat-number">
               {books.length > 0 ? Math.round(books.reduce((sum, book) => sum + book.highlightsCount, 0) / books.length) : 0}
             </div>
-            <div className="text-sm text-gray-600">平均ハイライト数</div>
           </div>
+          <div className="stat-label">平均ハイライト数</div>
         </div>
       </div>
 
       {/* フィルターとサーチ */}
-      <div className="bg-white rounded-lg shadow-sm border p-6">
-        <div className="flex flex-col md:flex-row gap-4">
+      <div className="search-container">
+        <div className="flex flex-col lg:flex-row gap-6">
           <div className="flex-1">
-            <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-2">
-              🔍 書籍を検索
+            <label htmlFor="search" className="block text-sm font-semibold text-gray-700 mb-3 flex items-center">
+              <span className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mr-3">
+                <span className="text-white text-sm">🔍</span>
+              </span>
+              書籍を検索
             </label>
             <input
               type="text"
@@ -142,18 +173,21 @@ export default function HomePage() {
               placeholder="タイトルや著者名で検索..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="search-input"
             />
           </div>
-          <div>
-            <label htmlFor="category" className="block text-sm font-medium text-gray-700 mb-2">
-              📂 カテゴリ
+          <div className="lg:w-64">
+            <label htmlFor="category" className="block text-sm font-semibold text-gray-700 mb-3 flex items-center">
+              <span className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center mr-3">
+                <span className="text-white text-sm">📋</span>
+              </span>
+              カテゴリ
             </label>
             <select
               id="category"
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all duration-300 bg-white/90 backdrop-blur-sm"
             >
               <option value="all">すべて</option>
               {categories.slice(1).map(category => (
@@ -163,30 +197,54 @@ export default function HomePage() {
           </div>
         </div>
         
-        <div className="mt-4 text-sm text-gray-600">
-          {filteredBooks.length} 冊の書籍が見つかりました
+        <div className="mt-6 flex items-center justify-between">
+          <div className="text-sm font-medium text-gray-700 bg-gradient-to-r from-purple-100 to-pink-100 px-4 py-2 rounded-full">
+            <span className="text-purple-700">{filteredBooks.length}</span> 冊の書籍が見つかりました
+          </div>
+          {(searchTerm || selectedCategory !== 'all') && (
+            <button
+              onClick={() => {
+                setSearchTerm('');
+                setSelectedCategory('all');
+              }}
+              className="text-sm font-medium text-purple-600 hover:text-purple-800 bg-purple-50 hover:bg-purple-100 px-4 py-2 rounded-full transition-colors duration-200"
+            >
+              フィルターをリセット
+            </button>
+          )}
         </div>
       </div>
 
       {/* 書籍グリッド */}
       {filteredBooks.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filteredBooks.map(book => (
-            <BookCard key={book.id} book={book} />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          {filteredBooks.map((book, index) => (
+            <div 
+              key={book.id} 
+              className="fade-in" 
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <BookCard book={book} />
+            </div>
           ))}
         </div>
       ) : (
-        <div className="text-center py-12">
-          <div className="text-gray-500 text-lg">📚</div>
-          <p className="text-gray-600 mt-2">検索条件に一致する書籍が見つかりませんでした。</p>
+        <div className="text-center py-20">
+          <div className="mb-6">
+            <div className="w-24 h-24 bg-gradient-to-br from-gray-200 to-gray-300 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="text-4xl text-gray-500">📚</span>
+            </div>
+            <h3 className="text-xl font-semibold text-gray-700 mb-2">書籍が見つかりません</h3>
+            <p className="text-gray-600 max-w-md mx-auto">検索条件に一致する書籍がありません。別のキーワードやカテゴリでお試しください。</p>
+          </div>
           <button
             onClick={() => {
               setSearchTerm('');
               setSelectedCategory('all');
             }}
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+            className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 py-3 rounded-xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
           >
-            フィルターをリセット
+            すべての書籍を表示
           </button>
         </div>
       )}
