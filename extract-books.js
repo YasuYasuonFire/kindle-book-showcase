@@ -3,7 +3,7 @@ const path = require('path');
 const yaml = require('js-yaml');
 
 const kindleDir = path.join(__dirname, '../../kindle');
-const outputFile = path.join(__dirname, 'data/books.json');
+const outputFile = path.join(__dirname, 'public/data/books.json');
 
 function enhanceImageUrl(originalUrl) {
   if (!originalUrl) return originalUrl;
