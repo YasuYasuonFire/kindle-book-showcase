@@ -1,0 +1,1324 @@
+# Test info
+
+- Name: 100種類の検索単語テスト >> 検索テスト 8: "目標"
+- Location: /Users/yasuyasu/Documents/Obsidian Vault/output/kindle-book-showcase/search-100-words.spec.js:45:5
+
+# Error details
+
+```
+Error: locator.clear: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('textbox[aria-label*="書籍を検索"]')
+
+    at /Users/yasuyasu/Documents/Obsidian Vault/output/kindle-book-showcase/search-100-words.spec.js:48:25
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - text: 📚
+  - heading "Kindle書籍コレクション" [level=1]
+  - paragraph: ビジネス・自己啓発書を中心とした厳選書籍の紹介
+  - text: 80+冊を掲載
+- main:
+  - text: 📚 89 総書籍数 📝 335 総ハイライト数 📋 6 カテゴリ数 📊 4 平均ハイライト数 🔍 書籍を検索
+  - textbox "🔍 書籍を検索"
+  - text: 📋 カテゴリ
+  - combobox "📋 カテゴリ":
+    - option "すべて" [selected]
+    - option "マネジメント・リーダーシップ"
+    - option "技術・エンジニア"
+    - option "キャリア・働き方"
+    - option "組織・職場環境"
+    - option "その他"
+    - option "お金・投資"
+  - text: 89 冊の書籍が見つかりました
+  - img "「正しく」失敗できるチームを作る──現場のリーダーのための恐怖と不安を乗り越える技術の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "「正しく」失敗できるチームを作る──現場のリーダーのための恐怖と不安を乗り越える技術" [level=3]
+  - paragraph: "著者: 石垣 雅人"
+  - text: 📝 8 ハイライト 📅 2025/4/30
+  - heading "💡 ハイライト一覧 (8個)" [level=4]
+  - button "全て表示 (8)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: プロジェクトの遅延は、 ある日突然発生するものではありません。必ず何らかの兆候があります。PMにはプロジェクトの全体像と詳細な情報が集まるため、リスクを予見し、管理する責任があります。しかし、計画段階や進行中にリスクを見逃したり、見て見ぬふりをすると、課題が徐々に肥大化して最終的に顕在化します。リス...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DTP9V7JY
+  - button "🔗"
+  - img "INSPIRED 熱狂させる製品を生み出すプロダクトマネジメントの表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "INSPIRED 熱狂させる製品を生み出すプロダクトマネジメント" [level=3]
+  - paragraph: "著者: マーティ・ケーガン、佐藤真治、関満徳、神月謙一"
+  - text: 📝 6 ハイライト 📅 2024/2/1
+  - heading "💡 ハイライト一覧 (6個)" [level=4]
+  - button "全て表示 (6)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "古いウォーターフォールプロセスの最大の欠点は、今も昔もすべてのリスクが最後に来る点である。つまり顧客実証がおこなわれるのが遅すぎるのだ。 — location: [436](kindle://book?action=open&asin=B0814STTHV&location=436) ^ref-13..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0814STTHV
+  - button "🔗"
+  - img "エンジニアリングが好きな私たちのための エンジニアリングマネジャー入門の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "エンジニアリングが好きな私たちのための エンジニアリングマネジャー入門" [level=3]
+  - paragraph: "著者: サラ・ドラスナー、岩瀬義昌"
+  - text: 📝 2 ハイライト 📅 2025/3/15
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 新任マネジャーに繰り返し見られる最大の間違いの一つは、1on1を任意と考えてしまうことです。悪意があるわけではありません。しかし、1on1に時間が多く取られて、他のことができないと考えてしまうのです。部下として、まったく支援されていなかった立場から言えば、「 1on1こそ、マネジャーの仕事でいちばん...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CYQLXRQ2
+  - button "🔗"
+  - img "こうして社員は、やる気を失っていく リーダーのための「人が自ら動く組織心理」の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "こうして社員は、やる気を失っていく リーダーのための「人が自ら動く組織心理」" [level=3]
+  - paragraph: "著者: 松岡保昌"
+  - text: 📝 20 ハイライト 📅 2025/4/17
+  - heading "💡 ハイライト一覧 (20個)" [level=4]
+  - button "全て表示 (20)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "あなたの会社では、「仕事の目的」がきちんと共有されていますか？ リーダーはメンバーに、このことを日々伝えているでしょうか？ — location: [423](kindle://book?action=open&asin=B0B3DFYSDC&location=423) ^ref-46425"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0B3DFYSDC
+  - button "🔗"
+  - img "スケーリング・ピープル 人に寄り添い、チームを強くするマネジメント戦略の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "スケーリング・ピープル 人に寄り添い、チームを強くするマネジメント戦略" [level=3]
+  - paragraph: "著者: クレア・ヒューズ・ジョンソン、二木夢子"
+  - text: 📝 14 ハイライト 📅 2025/4/19
+  - heading "💡 ハイライト一覧 (14個)" [level=4]
+  - button "全て表示 (14)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "次に、どれほどの天才が揃った会社であっても、強力なマネジメントと堅固な事業運営体制がなければ莫大なインパクトを与えるどころか成功すらもおぼつかないということだ。 — location: [131](kindle://book?action=open&asin=B0F176Y8SB&location=..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0F176Y8SB
+  - button "🔗"
+  - img "ソフトウェア開発現場の「失敗」集めてみた。 42の失敗事例で学ぶチーム開発のうまい進めかたの表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "ソフトウェア開発現場の「失敗」集めてみた。 42の失敗事例で学ぶチーム開発のうまい進めかた" [level=3]
+  - paragraph: "著者: 出石 聡史"
+  - text: 📝 2 ハイライト 📅 2025/1/9
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "ここが失敗のポイントです。進捗会議で 作業だけを確認し、課題の発生を捉えていない ため、多くの課題が急に沸き起こったかのように見えるのです。 進捗会議の神髄は、できるだけ 早く課題を芽のうちから掘り起こす ことです。 — location: [2285](kindle://book?action=..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CW1KZ5N3
+  - button "🔗"
+  - img "マネジメント［エッセンシャル版］の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "マネジメント［エッセンシャル版］" [level=3]
+  - paragraph: "著者: Ｐ Ｆ ドラッカー、上田 惇生"
+  - text: 📝 1 ハイライト 📅 2024/8/17
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 野球のスターが、監督やコーチよりも収入が多くとも不思議ではない。専門家によって構成される部門の長たるマネジャーは、その部門のほとんどの者よりも多くの報酬を受ける。しかし、彼よりも多くの報酬を受けるスターが、一人や二人いることを例外としてはならない。いわんや望ましからざることとしてはならない。セールス...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0083ZDWPE
+  - button "🔗"
+  - img "マネジメントは嫌いですけどの表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "マネジメントは嫌いですけど" [level=3]
+  - paragraph: "著者: 関谷 雅宏"
+  - text: 📝 2 ハイライト 📅 2025/5/4
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "「今の状態を前提にどうすればいいか」ではなく、 あるべき未来になるようにするにはどうするか。 — location: [196](kindle://book?action=open&asin=B0DP3YZ9PV&location=196) ^ref-17001"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DP3YZ9PV
+  - button "🔗"
+  - img "マネジャーのための人事評価で最高のチームをつくる方法 「査定する場」から「共に成長する場」への表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "マネジャーのための人事評価で最高のチームをつくる方法 「査定する場」から「共に成長する場」へ" [level=3]
+  - paragraph: "著者: 川内 正直"
+  - text: 📝 5 ハイライト 📅 2025/2/28
+  - heading "💡 ハイライト一覧 (5個)" [level=4]
+  - button "全て表示 (5)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "「対象」「基準」「方法」に分ける — location: [964](kindle://book?action=open&asin=B0BTGYM9VM&location=964) ^ref-26120"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0BTGYM9VM
+  - button "🔗"
+  - img "マネジャーの全仕事 いつの時代も変わらない「人の上に立つ人」の常識の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "マネジャーの全仕事 いつの時代も変わらない「人の上に立つ人」の常識" [level=3]
+  - paragraph: "著者: ローレン・B・ベルカー、ジム・マコーミック、ゲイリー・S・トプチック、佐々木寛子"
+  - text: 📝 3 ハイライト 📅 2025/4/26
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "というわけで、着任後の面談の目的は、「上司は部下一人ひとりのことを真剣に考えて、目標を実現できるようサポートしてくれる」と部下にわかってもらうことだ。 — location: [240](kindle://book?action=open&asin=B0CL97CXGD&location=240) ..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CL97CXGD
+  - button "🔗"
+  - img "マネジャーの最も大切な仕事――95％の人が見過ごす「小さな進捗」の力の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "マネジャーの最も大切な仕事――95％の人が見過ごす「小さな進捗」の力" [level=3]
+  - paragraph: "著者: テレサ・アマビール、スティーブン・クレイマー、中竹竜二、樋口武志"
+  - text: 📝 7 ハイライト 📅 2025/3/31
+  - heading "💡 ハイライト一覧 (7個)" [level=4]
+  - button "全て表示 (7)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: チームの数字を良く見せるため（自分を良く見せるため！） だけに組織をあざむくことに執着しているように見えた。彼は肩書きを盾にして私たち全員にやるべきことを指示した。彼のリーダーシップについていこうという気持ちはまったく湧かなかった。それどころか、まったくついていきたくなかった！ 自分は勇気のある人間...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B01MTBX22U
+  - button "🔗"
+  - img "メンバーが勝手に動く最高のチームをつくる プレイングマネジャーの基本の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "メンバーが勝手に動く最高のチームをつくる プレイングマネジャーの基本" [level=3]
+  - paragraph: "著者: 伊庭正康"
+  - text: 📝 1 ハイライト 📅 2025/2/1
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "メンバーの心を１つにまとめるためには、「なんのために仕事をして、何を成し遂げるのか」を明確に示す必要があります。 そうでなければ、部下の気持ちを動かすことはできないのです。 — location: [1129](kindle://book?action=open&asin=B07TTS7D9G&lo..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B07TTS7D9G
+  - button "🔗"
+  - img "世界のマネジャーは、成果を出すために何をしているのか？の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "世界のマネジャーは、成果を出すために何をしているのか？" [level=3]
+  - paragraph: "著者: 井上大輔"
+  - text: 📝 4 ハイライト 📅 2025/6/8
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 「会議は『手段』ではありません。それは『手段の入れ物』です」 「手段の、入れ物？」 「例えば１オン１では、部下に注意をすることもあれば、逆に励ますこともあるでしょう。部下との関係を深めるために１オン１を使うこともあれば、１オン１が進捗確認の舞台になることもある。今挙げたものは全部、部下のパフォーマン...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0F6N529XP
+  - button "🔗"
+  - img "世界標準のフィードバック 部下の「本気」を引き出す外資流マネジメントの教科書の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "世界標準のフィードバック 部下の「本気」を引き出す外資流マネジメントの教科書" [level=3]
+  - paragraph: "著者: 安田 雅彦"
+  - text: 📝 13 ハイライト 📅 2025/3/4
+  - heading "💡 ハイライト一覧 (13個)" [level=4]
+  - button "全て表示 (13)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "上司や同僚からの言葉。顧客に言われたこと。結果が出たとき、あるいは出なかったときに受けた評価。このような「期待されている行動と実際の行為のギャップ」を知ることがフィードバックであり、それ以上に成長実感を得る機会はないと私は思っています。 — location: [194](kindle://book..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DPPWKF5Z
+  - button "🔗"
+  - img "人が壊れるマネジメントプロジェクトを始める前に知っておきたいアンチパターン 50の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "人が壊れるマネジメントプロジェクトを始める前に知っておきたいアンチパターン 50" [level=3]
+  - paragraph: "著者: 橋本将功"
+  - text: 📝 4 ハイライト 📅 2025/5/30
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "本来マネージャーに求められる役割は、プレイヤー（作業）レベルでの業務ではなく、上層部が考える戦略を実現する体制や仕組みづくり、ビジネスの現場から出てくる課題や新しい展望を吸い上げて上層部が行う戦略立案のサポートを行うことなのです。 — location: [431](kindle://book?ac..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0F2S42VT3
+  - button "🔗"
+  - img "最高の自走型チームの作り方の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "最高の自走型チームの作り方" [level=3]
+  - paragraph: "著者: 梅原千草"
+  - text: 📝 7 ハイライト 📅 2025/3/9
+  - heading "💡 ハイライト一覧 (7個)" [level=4]
+  - button "全て表示 (7)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "このように仕事にも人にも対応する難易度が高まっている分、リーダーがすべてを管理し、指示を出し、問題解決をしようとしていては、忙しくなるばかりです。それどころか、リーダー自身もチームも限界を迎えてしまいます。 — location: [253](kindle://book?action=open&as..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DSHV1CWR
+  - button "🔗"
+  - img "強いチームをつくる！ リーダーの心得の表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "強いチームをつくる！ リーダーの心得" [level=3]
+  - paragraph: "著者: 伊庭 正康"
+  - text: 📝 4 ハイライト 📅 2025/3/31
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "・あなたが部下にあらたな指示をする時は、何か１つのことをやめさせる。 — location: [840](kindle://book?action=open&asin=B00RKO3JZM&location=840) ^ref-22438"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B00RKO3JZM
+  - button "🔗"
+  - img "忙しすぎるリーダーの９割が知らない チームを動かす すごい仕組みの表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "忙しすぎるリーダーの９割が知らない チームを動かす すごい仕組み" [level=3]
+  - paragraph: "著者: 山本 真司"
+  - text: 📝 1 ハイライト 📅 2024/7/4
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "フラットな組織においては、情報共有こそがメンバーのやる気を引き出す最初の重要な条件 だからです。 — location: [1401](kindle://book?action=open&asin=B0BXKFZT76&location=1401) ^ref-48362"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0BXKFZT76
+  - button "🔗"
+  - img "急成長を導くマネージャーの型 ～地位・権力が通用しない時代の“イーブン”なマネジメントの表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "急成長を導くマネージャーの型 ～地位・権力が通用しない時代の“イーブン”なマネジメント" [level=3]
+  - paragraph: "著者: 長村 禎庸"
+  - text: 📝 9 ハイライト 📅 2025/3/7
+  - heading "💡 ハイライト一覧 (9個)" [level=4]
+  - button "全て表示 (9)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "です。「絶対達成できるような保守的な目標を達成し続ける人より、野心的な目標を掲げ、そこにチャレンジすることで常に能力を伸ばし続ける人を評価する」 — location: [826](kindle://book?action=open&asin=B09KRDPCSY&location=826) ^re..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B09KRDPCSY
+  - button "🔗"
+  - img "新装版 外資系コンサルが教えるプロジェクトマネジメントの表紙"
+  - text: マネジメント・リーダーシップ
+  - heading "新装版 外資系コンサルが教えるプロジェクトマネジメント" [level=3]
+  - paragraph: "著者: 山口周"
+  - text: 📝 4 ハイライト 📅 2024/6/25
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "多くのプロジェクトリーダーは、「メンバーが、何らかのリスクや危険性を感知した場合、それをリーダーに相談してくれる」と考える傾向があります。 これは非常に危険な傾向と言わざるを得ません。 — location: [1202](kindle://book?action=open&asin=B0C85L..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0C85LBP4J
+  - button "🔗"
+  - img "エンジニアのための目標設定の技術 (技術の泉シリーズ（NextPublishing）)の表紙"
+  - text: 技術・エンジニア
+  - heading "エンジニアのための目標設定の技術 (技術の泉シリーズ（NextPublishing）)" [level=3]
+  - paragraph: "著者: 親方プロジェクト"
+  - text: 📝 1 ハイライト 📅 2024/8/26
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 定量化の目標を何回か実施した際に到達した先にある「状態」が定性化された目標であることが多いでしょう。 たとえば、特定の技術分野で有名になる、と目標を設定します。すると、知ってもらうためにその分野の勉強をし、定期的にアウトプットし、場合によってはイベントなどで発表する、などがマイルストーンになると思...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B09CYHW5YF
+  - button "🔗"
+  - img "フィードバック入門 耳の痛いことを伝えて部下と職場を立て直す技術 (PHPビジネス新書)の表紙"
+  - text: 技術・エンジニア
+  - heading "フィードバック入門 耳の痛いことを伝えて部下と職場を立て直す技術 (PHPビジネス新書)" [level=3]
+  - paragraph: "著者: 中原 淳"
+  - text: 📝 1 ハイライト 📅 2024/6/23
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "相手に刺さるようなフィードバックをするためには「できるだけ具体的に相手の問題行動の事実を指摘すること」が必要だからです。よって、私たちはフィードバックを行うために必要なデータを、事前に部下の行動を観察することで徹底的に収集していくことが求められます。 — location: [939](kindle..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B06VVQ8V36
+  - button "🔗"
+  - img "ポリティカル・スキル 人と組織を思い通りに動かす技術の表紙"
+  - text: 技術・エンジニア
+  - heading "ポリティカル・スキル 人と組織を思い通りに動かす技術" [level=3]
+  - paragraph: "著者: マリー・マッキンタイヤー、桜田 直美"
+  - text: 📝 20 ハイライト 📅 2025/4/6
+  - heading "💡 ハイライト一覧 (20個)" [level=4]
+  - button "全て表示 (20)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: このゲームにおける勝利とは、自分にとって意味のある目標を達成するために必要な組織スキルを手に入れることです。ときに私たちは、成功とは誰よりも早く組織で上り詰めることに他ならないと考えますが、すべての人が出世に興味を持っているわけではありません。自立、安定、責任、スキルの向上、挑戦、仕事のおもしろさな...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CW1LNL28
+  - button "🔗"
+  - img "世界一流エンジニアの思考法 (文春e-book)の表紙"
+  - text: 技術・エンジニア
+  - heading "世界一流エンジニアの思考法 (文春e-book)" [level=3]
+  - paragraph: "著者: 牛尾 剛"
+  - text: 📝 1 ハイライト 📅 2024/1/9
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 実は、この「気軽に聞ける仕組み」は、「気軽に断れる空気」とセットになっている ことが肝心なポイントだ。これはスポーツカーが速く走れるのは、良いブレーキがついていて、いつでも止まれるから、ということに似ている。 例えばハッカソンをしていて、サポートをしてくれる同僚がいるとする。彼らに助けを求めると気...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CKSZV5DQ
+  - button "🔗"
+  - img "余白思考 アートとデザインのプロがビジネスで大事にしている「ロジカル」を超える技術の表紙"
+  - text: 技術・エンジニア
+  - heading "余白思考 アートとデザインのプロがビジネスで大事にしている「ロジカル」を超える技術" [level=3]
+  - paragraph: "著者: 山崎 晴太郎"
+  - text: 📝 1 ハイライト 📅 2024/1/22
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "仕事の場で出会ったとしても受発注を前提にした利害関係ではなく、おもちゃで一緒に遊ぶチームであり、仲間という感覚です。どちらが発注側でも受注側でも、それは変わりません。 — location: [1879](kindle://book?action=open&asin=B0CQJRX8KG&locat..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CQJRX8KG
+  - button "🔗"
+  - img "得意なことの見つけ方 自分探しにとらわれず、すぐに行動できる技術 (角川書店単行本)の表紙"
+  - text: 技術・エンジニア
+  - heading "得意なことの見つけ方 自分探しにとらわれず、すぐに行動できる技術 (角川書店単行本)" [level=3]
+  - paragraph: "著者: 澤 円"
+  - text: 📝 8 ハイライト 📅 2025/3/30
+  - heading "💡 ハイライト一覧 (8個)" [level=4]
+  - button "全て表示 (8)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "それよりも、 自分から能動的になんらかの「行動」をすることで、自分のなかにインパクトをもって残るような〝ゆらぎ〟をつくっていく。 こうした行動が、自分の「得意なこと」に近づいていく有効な手掛かりになるのではないかと思うのです。 — location: [321](kindle://book?acti..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DXDGY9D5
+  - button "🔗"
+  - img "「仕事ができる」とはどういうことか？の表紙"
+  - text: キャリア・働き方
+  - heading "「仕事ができる」とはどういうことか？" [level=3]
+  - paragraph: "著者: 楠木健、山口周"
+  - text: 📝 1 ハイライト 📅 2024/5/16
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "一方で、ずっと好きなのは音楽です。スポーツが嫌いなのになんで音楽はこんなに好きなんだろうと考えると、それはゲームの条件の逆になっているんですよ。事前にルールが設定されていないとか、良し悪しが人の認知に依存しているとか、ひとつの次元では優劣を序列化することができないとか。 — location: [5..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0827LTLZZ
+  - button "🔗"
+  - img "40歳からの「仕事の壁」を越える勝間式思考の表紙"
+  - text: キャリア・働き方
+  - heading "40歳からの「仕事の壁」を越える勝間式思考" [level=3]
+  - paragraph: "著者: 勝間 和代"
+  - text: 📝 1 ハイライト 📅 2024/6/25
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "つまり、営業は顧客がやってくれる。顧客によるクチコミがフリーランスにとっての営業です。そうなるためには、まず「仕事の成果が営業になる」という意識を持つこと。顧客をつかむ前にフリーになった人は営業する必要がありますが、それも最初の数回で済むはずです。 — location: [1764](kindle..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0D62NC759
+  - button "🔗"
+  - img "コンサル時代に教わった 仕事ができる人の当たり前の表紙"
+  - text: キャリア・働き方
+  - heading "コンサル時代に教わった 仕事ができる人の当たり前" [level=3]
+  - paragraph: "著者: 西原 亮"
+  - text: 📝 1 ハイライト 📅 2025/1/3
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "仕事をするうえで「人の話を聞く」とは「認識の齟齬をなくす」こと なのです。 — location: [428](kindle://book?action=open&asin=B0DHTL33B5&location=428) ^ref-13823"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DHTL33B5
+  - button "🔗"
+  - img "リデザイン・ワーク 新しい働き方の表紙"
+  - text: キャリア・働き方
+  - heading "リデザイン・ワーク 新しい働き方" [level=3]
+  - paragraph: "著者: リンダ・グラットン、池村 千秋"
+  - text: 📝 3 ハイライト 📅 2025/2/12
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "活力、集中、連携、協力である（ — location: [588](kindle://book?action=open&asin=B0BB6QZ97Q&location=588) ^ref-55260"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0BB6QZ97Q
+  - button "🔗"
+  - img "僕が若い人たちに伝えたい 2035年最強の働き方の表紙"
+  - text: キャリア・働き方
+  - heading "僕が若い人たちに伝えたい 2035年最強の働き方" [level=3]
+  - paragraph: "著者: ひろゆき(西村博之)"
+  - text: 📝 2 ハイライト 📅 2025/3/26
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "自由に使える時間が増えたわけですから、その時間を「仕事に関係する時間にあてる人」と「あてない人」の格差は、今まで以上に広がる気がしています。 — location: [412](kindle://book?action=open&asin=B0DLDMDVKK&location=412) ^ref-..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DLDMDVKK
+  - button "🔗"
+  - img "役員になる人は知っておきたい 出世する部長の仕事の表紙"
+  - text: キャリア・働き方
+  - heading "役員になる人は知っておきたい 出世する部長の仕事" [level=3]
+  - paragraph: "著者: 安藤 浩之"
+  - text: 📝 4 ハイライト 📅 2025/4/13
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "部長になると、こうしたことがなくなります。 ところが、課長時代のマネジメントスタイルを引きずって、部下一人ひとりに介入している部長を見かけることがあります。しかし、課長を飛び越してはいけません。 — location: [274](kindle://book?action=open&asin=B0..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B00YX4FE1Y
+  - button "🔗"
+  - img "数値化の鬼――「仕事ができる人」に共通する、たった１つの思考法の表紙"
+  - text: キャリア・働き方
+  - heading "数値化の鬼――「仕事ができる人」に共通する、たった１つの思考法" [level=3]
+  - paragraph: "著者: 安藤 広大"
+  - text: 📝 1 ハイライト 📅 2024/7/14
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "メンバー全員が成長を目指し、「働かないおじさん」を１人でも生み出さないためには、方法は１つです。 それは、「マイナス評価」を取り入れることです。 — location: [1077](kindle://book?action=open&asin=B09PV144BN&location=1077) ^..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B09PV144BN
+  - button "🔗"
+  - img "超速で成果を出す アジャイル仕事術――プロフェッショナル２．０という働き方の表紙"
+  - text: キャリア・働き方
+  - heading "超速で成果を出す アジャイル仕事術――プロフェッショナル２．０という働き方" [level=3]
+  - paragraph: "著者: 坂田 幸樹"
+  - text: 📝 1 ハイライト 📅 2024/4/17
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: は、過去に複数の炎上しているシステム開発プロジェクトの立て直しに従事したことがありますが、まず初めにすることは 人を減らす ことです。なぜならば、多くの炎上しているプロジェクトでは、プロジェクトマネジャーの「プログラマーが足りないからプロジェクトが遅延している」という言葉を信じて人員が追加され、より...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B09YRDLC76
+  - button "🔗"
+  - img "雑用は上司の隣でやりなさい――あなたの評価を最大限に高める「コスパ最強」仕事術の表紙"
+  - text: キャリア・働き方
+  - heading "雑用は上司の隣でやりなさい――あなたの評価を最大限に高める「コスパ最強」仕事術" [level=3]
+  - paragraph: "著者: たこす"
+  - text: 📝 4 ハイライト 📅 2024/8/26
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: ＪＴＣはあくまで「人」が評価するシステムになっています。なのでどうしても「感情」や「周りからの空気」などといった数字では表現できないモノが評価に大きく影響します。極論を言ってしまえば、「 評価は数字と感情の掛け算で決まっている」のです。 あなたが効率よく会社から高い評価を得るためには、馬鹿正直にでき...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0D6FNSL9G
+  - button "🔗"
+  - img "GitLabに学ぶ 世界最先端のリモート組織のつくりかた ドキュメントの活用でオフィスなしでも最大の成果を出すグローバル企業のしくみの表紙"
+  - text: 組織・職場環境
+  - heading "GitLabに学ぶ 世界最先端のリモート組織のつくりかた ドキュメントの活用でオフィスなしでも最大の成果を出すグローバル企業のしくみ" [level=3]
+  - paragraph: "著者: 千田 和央、伊藤 俊廷、佐々木 直晴"
+  - text: 📝 3 ハイライト 📅 2024/7/16
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: コミュニケーションの相手は「何かを良くするために適切に努力している」とまずは想定することです。人間は本能的に、他人の行動から自分にとって不都合なことが発生すると、相手が誠実でなかったり、やる気がなかったり、能力がなかったから問題が起きたと考えてしまいます。「前向きな意図を想定する」とは、そうした考え...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CBR9GYF6
+  - button "🔗"
+  - img "入門 組織開発～活き活きと働ける職場をつくる～ (光文社新書)の表紙"
+  - text: 組織・職場環境
+  - heading "入門 組織開発～活き活きと働ける職場をつくる～ (光文社新書)" [level=3]
+  - paragraph: "著者: 中村 和彦"
+  - text: 📝 2 ハイライト 📅 2024/4/23
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "そして、個業化した状態で個人の容量を超えた仕事をこなす状態が長期的に続き、上司や他のメンバーからの心理的サポートを受けることができない場合、うつなどのメンタルヘルスの問題が起こる可能性が高まります。 — location: [538](kindle://book?action=open&asin=B..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B00Z51L65C
+  - button "🔗"
+  - img "学習する組織 ― システム思考で未来を創造するの表紙"
+  - text: 組織・職場環境
+  - heading "学習する組織 ― システム思考で未来を創造する" [level=3]
+  - paragraph: "著者: ピーター・Ｍ・センゲ、枝廣淳子、小田理一郎、中小路佳代子"
+  - text: 📝 2 ハイライト 📅 2025/3/16
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 学習する組織とは、目的を達成する能力を効果的に伸ばし続ける組織であり、その目的は皆が望む未来の創造である。学習する組織には唯一完全の姿があるわけではない。むしろ、変化の激しい環境下で、さまざまな衝撃に耐え、復元する しなやかさをもつとともに、環境変化に適応し、学習し、自らをデザインして進化し続ける組...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B071WR7XMH
+  - button "🔗"
+  - img "静かに分断する職場 なぜ、社員の心が離れていくのか (ディスカヴァー携書)の表紙"
+  - text: 組織・職場環境
+  - heading "静かに分断する職場 なぜ、社員の心が離れていくのか (ディスカヴァー携書)" [level=3]
+  - paragraph: "著者: 高橋克徳"
+  - text: 📝 3 ハイライト 📅 2025/5/30
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: リチャード・ハックマンとグレッグ・オルダムによる職務特性理論というものがあります。仕事の特性によって、人のやる気が変わるというものです。自分が持つ多様なスキルや才能を活かせる仕事（技術多様性）で、初めから終わりまで関われる仕事（タスク完結性）で、他者の生活や社会に影響をもたらす重要な仕事（タスク重要...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DYNX2319
+  - button "🔗"
+  - img "「人の上に立つ」ために本当に大切なことの表紙"
+  - text: その他
+  - heading "「人の上に立つ」ために本当に大切なこと" [level=3]
+  - paragraph: "著者: ジョン Ｃ マクスウェル、弓場 隆"
+  - text: 📝 2 ハイライト 📅 2025/4/15
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "不屈の精神について語ることと、実際に行動することとは違う。行動こそが、不屈の精神を持っているかどうかを測る唯一の基準である。 — location: [343](kindle://book?action=open&asin=B00BHCM7L0&location=343) ^ref-25331"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B00BHCM7L0
+  - button "🔗"
+  - img "１万回生きたネコが教えてくれた 幸せなＦＩＲＥの表紙"
+  - text: その他
+  - heading "１万回生きたネコが教えてくれた 幸せなＦＩＲＥ" [level=3]
+  - paragraph: "著者: ヒトデ"
+  - text: 📝 2 ハイライト 📅 2024/10/15
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "「足りなかったものは、例えば〝社会とのつながり〟〝目的や目標〟〝日常の刺激〟〝自己実現感〟。これらは、必ず付きまとってくる問題です」 — location: [1588](kindle://book?action=open&asin=B0DDXHJW84&location=1588) ^ref-54..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DDXHJW84
+  - button "🔗"
+  - img "1兆ドルコーチ――シリコンバレーのレジェンド ビル・キャンベルの成功の教えの表紙"
+  - text: その他
+  - heading "1兆ドルコーチ――シリコンバレーのレジェンド ビル・キャンベルの成功の教え" [level=3]
+  - paragraph: "著者: エリック・シュミット、ジョナサン・ローゼンバーグ、アラン・イーグル、櫻井 祐子"
+  - text: 📝 11 ハイライト 📅 2025/4/10
+  - heading "💡 ハイライト一覧 (11個)" [level=4]
+  - button "全て表示 (11)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "ほどよい緊張を保ちつつ、チームをコミュニティに育て上げるには、コーチが欠かせない。つまり、個人だけでなくチーム全体と仕事をし、たえまない緊張を和らげ、共通のビジョンや目標と調和するコミュニティを育み続ける存在だ。 — location: [533](kindle://book?action=open..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B07ZCY5BXF
+  - button "🔗"
+  - img "２１ Ｌｅｓｓｏｎｓ ２１世紀の人類のための２１の思考 (河出文庫)の表紙"
+  - text: その他
+  - heading "２１ Ｌｅｓｓｏｎｓ ２１世紀の人類のための２１の思考 (河出文庫)" [level=3]
+  - paragraph: "著者: ユヴァル・ノア・ハラリ、柴田裕之"
+  - text: 📝 2 ハイライト 📅 2024/2/4
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: これら三つの物語の間の争いは、第二次世界大戦で最初の山場を迎え、この戦争によってファシズムが打ち負かされた。一九四〇年代後期から八〇年代後期にかけて、世界は共産主義と自由主義という、残る二つの物語の間の戦場と化した。やがて共産主義の物語が破綻し、自由主義の物語が、人間の過去への主要なガイド兼、世界の...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B09KN7H8HD
+  - button "🔗"
+  - 'img "5000の事例から導き出した「人的資本経営大全」: 日本企業最後の伸びしろの表紙"'
+  - text: その他
+  - 'heading "5000の事例から導き出した「人的資本経営大全」: 日本企業最後の伸びしろ" [level=3]'
+  - paragraph: "著者: 田中 弦"
+  - text: 📝 4 ハイライト 📅 2025/4/27
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "つまり、 人材が持つスキルやノウハウ、能力などをまさに「価値を生み出す元手」と見なしてそれを育て、伸ばし、活かし、企業価値につなげていく経営 のことを「人的資本経営」といいます。 — location: [360](kindle://book?action=open&asin=B0DPJRQQ43&..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DPJRQQ43
+  - button "🔗"
+  - img "AI時代の質問力 プロンプトリテラシー 「問い」と「指示」が生成AIの可能性を最大限に引き出すの表紙"
+  - text: その他
+  - heading "AI時代の質問力 プロンプトリテラシー 「問い」と「指示」が生成AIの可能性を最大限に引き出す" [level=3]
+  - paragraph: "著者: 岡 瑞起、橋本 康弘"
+  - text: 📝 5 ハイライト 📅 2025/3/31
+  - heading "💡 ハイライト一覧 (5個)" [level=4]
+  - button "全て表示 (5)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 問いたい質問 ニューヨーク市生まれの政治家を何名か挙げてください。 以下にトリガープロンプトを加える。 １．上記の質問に簡潔に回答してください。 ２．回答に含まれる事実をすべて列挙し、各事実について正誤を検証するための検証質問を生成してください。 ３．検証質問すべてに回答してください。 ４．検証結果...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0D4KLMQ54
+  - button "🔗"
+  - img "BIG THINGS どデカいことを成し遂げたヤツらはなにをしたのか？の表紙"
+  - text: その他
+  - heading "BIG THINGS どデカいことを成し遂げたヤツらはなにをしたのか？" [level=3]
+  - paragraph: "著者: ベント・フリウビヤ、ダン・ガードナー、櫻井 祐子"
+  - text: 📝 1 ハイライト 📅 2024/9/18
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "十分な情報をもとに、「何のために、なぜやるのか」を明確に理解すること、そして最初から最後までそれをけっして見失わないことが、成功するプロジェクトの基本である。 — location: [1331](kindle://book?action=open&asin=B0D143YRBP&location=..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0D143YRBP
+  - button "🔗"
+  - img "HIGH OUTPUT MANAGEMENTの表紙"
+  - text: その他
+  - heading "HIGH OUTPUT MANAGEMENT" [level=3]
+  - paragraph: "著者: アンドリュー・S・グローブ、小林 薫"
+  - text: 📝 4 ハイライト 📅 2024/4/23
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 最初に説明しているのはワン・オン・ワン（一対一）の場合だ。インテルのＣＥＯである重要人物が平凡きわまる一対一の話合いのやり方を説明するなど信じがたいことだ。 ではなぜアンディはそうしたのだろう？ 実はワン・オン・ワンのミーティングはマネジャーと社員のコミュニケーションの基本であるだけでなく、マネジ...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B01MU055XH
+  - button "🔗"
+  - img "いつでも会社を辞められる自分になるの表紙"
+  - text: その他
+  - heading "いつでも会社を辞められる自分になる" [level=3]
+  - paragraph: "著者: 黒田 真行"
+  - text: 📝 2 ハイライト 📅 2025/4/29
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "個人的には、実力があったり、周囲から信頼されたりしている人というのは、率先して新しい取り組みをしてみたり、たとえ人が嫌がるような仕事でも、やり方を工夫してやってみたりという印象があります。 — location: [874](kindle://book?action=open&asin=B0F2MF..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0F2MFH5Q7
+  - button "🔗"
+  - img "エッセンシャル思考 最少の時間で成果を最大にするの表紙"
+  - text: その他
+  - heading "エッセンシャル思考 最少の時間で成果を最大にする" [level=3]
+  - paragraph: "著者: グレッグ・マキューン、高橋璃子"
+  - text: 📝 1 ハイライト 📅 2024/1/1
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "エッセンシャル思考の人は、みんなにいい顔をしようとしない。時には相手の機嫌を損ねても、きちんと上手にノーを言う。長期的に見れば、好印象よりも敬意のほうが大切だと知っているのだ。 — location: [1661](kindle://book?action=open&asin=B00QQKCV6E&..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B00QQKCV6E
+  - button "🔗"
+  - img "コード×AIーソフトウェア開発者のための生成AI実践入門の表紙"
+  - text: その他
+  - heading "コード×AIーソフトウェア開発者のための生成AI実践入門" [level=3]
+  - paragraph: "著者: 服部 佑樹"
+  - text: 📝 1 ハイライト 📅 2024/12/28
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "ここで言う「優秀さ」とは、単に技術力が高いことではなく、問題解決能力、コミュニケーション力、継続的な学習意欲など、総合的な能力を指します。 — location: [830](kindle://book?action=open&asin=B0DFW57CGY&location=830) ^ref-3..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DFW57CGY
+  - button "🔗"
+  - img "コンセプト・センスの表紙"
+  - text: その他
+  - heading "コンセプト・センス" [level=3]
+  - paragraph: "著者: 吉田 将英"
+  - text: 📝 1 ハイライト 📅 2024/4/29
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 「どうしたらもっと良くなるか？」ではなく、 「そもそも、良いとは何なのか？」から再定義する。 前者が「ソリューションメイク」だとすると、後者は「センスメイク」。つまり 認知の再定義 からスタートするアプローチです。そして、“良さそのものを新しく定義できた企画”は、その時点でオリジナルになれる可能性...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CQXYGX52
+  - button "🔗"
+  - img "テクノ・リバタリアン 世界を変える唯一の思想 (文春新書)の表紙"
+  - text: その他
+  - heading "テクノ・リバタリアン 世界を変える唯一の思想 (文春新書)" [level=3]
+  - paragraph: "著者: 橘 玲"
+  - text: 📝 1 ハイライト 📅 2024/4/7
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "そこでブテリンは、イーサリアムのコミュニティの 85％の支持をとりつけて「 51％攻撃」を行ない、ハードフォークを実施してハッカーがイーサを詐取する以前に歴史を巻き戻した。 — location: [2065](kindle://book?action=open&asin=B0CXX37KDY&lo..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CXX37KDY
+  - button "🔗"
+  - img "ドラッカー名著集1 経営者の条件の表紙"
+  - text: その他
+  - heading "ドラッカー名著集1 経営者の条件" [level=3]
+  - paragraph: "著者: Ｐ Ｆ ドラッカー、上田 惇生"
+  - text: 📝 4 ハイライト 📅 2025/4/27
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 人員過剰についてもかなり信頼できる兆候がある。もし組織の上のほうの人たちが時間をある程度以上、おそらくは一割以上を人間関係、反目、摩擦、担当、協力に関わる問題にとられているならば、人が多すぎることはほぼ確実である。互いに仕事を邪魔している。スマートな組織では、衝突することなく動く余地がある。始終説明...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0081M7Z20
+  - button "🔗"
+  - img "なぜこんな人が上司なのか（新潮新書）の表紙"
+  - text: その他
+  - heading "なぜこんな人が上司なのか（新潮新書）" [level=3]
+  - paragraph: "著者: 桃野泰徳"
+  - text: 📝 1 ハイライト 📅 2024/5/10
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "会社や組織の強さとは仕事を可視化し、数字を透明化した上で、 「自分よりも優秀な人材を採用し、そして育てること」 — location: [902](kindle://book?action=open&asin=B0CVQ6XBRP&location=902) ^ref-55856"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CVQ6XBRP
+  - button "🔗"
+  - img "ビジョナリー・カンパニーZERO ゼロから事業を生み出し、偉大で永続的な企業になるの表紙"
+  - text: その他
+  - heading "ビジョナリー・カンパニーZERO ゼロから事業を生み出し、偉大で永続的な企業になる" [level=3]
+  - paragraph: "著者: ジム・コリンズ、ビル・ラジアー、土方 奈美"
+  - text: 📝 4 ハイライト 📅 2025/3/28
+  - heading "💡 ハイライト一覧 (4個)" [level=4]
+  - button "全て表示 (4)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "信頼すると、相手はその信頼に応えなければという責任を感じる。自分が信頼することで、相手がより信頼に足る人間になる手助けができる、と考えたことはないかい？」 — location: [253](kindle://book?action=open&asin=B09B966P33&location=253..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B09B966P33
+  - button "🔗"
+  - img "プロジェクトのトラブル解決大全 小さな問題から大炎上まで使える「プロの火消し術86」の表紙"
+  - text: その他
+  - heading "プロジェクトのトラブル解決大全 小さな問題から大炎上まで使える「プロの火消し術86」" [level=3]
+  - paragraph: "著者: 木部 智之"
+  - text: 📝 3 ハイライト 📅 2025/2/21
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "リーダーばかりが悲壮感を漂わせていて、メンバーに緊張感がないチームは絶対に成功しません。 — location: [961](kindle://book?action=open&asin=B09RQD987H&location=961) ^ref-44107"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B09RQD987H
+  - button "🔗"
+  - img "マーケット感覚を身につけよう---「これから何が売れるのか?」わかる人になる5つの方法の表紙"
+  - text: その他
+  - heading "マーケット感覚を身につけよう---「これから何が売れるのか?」わかる人になる5つの方法" [level=3]
+  - paragraph: "著者: ちきりん"
+  - text: 📝 2 ハイライト 📅 2024/1/6
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: たとえばグーグルのGmailというメールサービスは今のところ無料ですが、その事業に大きな価値があることは明白です。新しいビジネスアイデアについて、すぐに「それでは儲からない」という人がいますが、ここでの「儲からない」とは、たいていの場合、マネタイズが難しいという意味です。ですが私は、マネタイズにはあ...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B00TPC8JXE
+  - button "🔗"
+  - img "ユーザーインタビューをはじめようの表紙"
+  - text: その他
+  - heading "ユーザーインタビューをはじめよう" [level=3]
+  - paragraph: "著者: スティーブ・ポーチガル、安藤 貴子"
+  - text: 📝 5 ハイライト 📅 2024/2/13
+  - heading "💡 ハイライト一覧 (5個)" [level=4]
+  - button "全て表示 (5)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "イントロダクションと参加者のバックグラウンド ● 主要部分 ● 将来の予測や希望についての質問 ● しめくくり — location: [1066](kindle://book?action=open&asin=B071X9BKPC&location=1066) ^ref-42582"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B071X9BKPC
+  - button "🔗"
+  - img "ゆるストイック――ノイズに邪魔されず１日を積み上げる思考の表紙"
+  - text: その他
+  - heading "ゆるストイック――ノイズに邪魔されず１日を積み上げる思考" [level=3]
+  - paragraph: "著者: 佐藤 航陽"
+  - text: 📝 1 ハイライト 📅 2025/3/15
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "これからの時代、情報発信者として重要なのは、言葉だけで相手を説得しようとするのではなく、視覚や聴覚を通じたコミュニケーションの重要性を理解し、それを活用することです。 言語はあくまで「補助的」なツールです。 — location: [1938](kindle://book?action=open&a..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0D8TM17M9
+  - button "🔗"
+  - img "ワーママはるのライフシフト習慣術の表紙"
+  - text: その他
+  - heading "ワーママはるのライフシフト習慣術" [level=3]
+  - paragraph: "著者: 尾石晴（ワーママはる）"
+  - text: 📝 5 ハイライト 📅 2023/10/23
+  - heading "💡 ハイライト一覧 (5個)" [level=4]
+  - button "全て表示 (5)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "ます。長時間労働や仕事優先の働き方を社員に強いる「夫側の企業」は、「妻側の企業」にフリーライドをしているという使われ方をします。 — location: [270](kindle://book?action=open&asin=B0928PJJ4D&location=270) ^ref-10133"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0928PJJ4D
+  - button "🔗"
+  - img "人望が集まる人の考え方 (レス・ギブリン)の表紙"
+  - text: その他
+  - heading "人望が集まる人の考え方 (レス・ギブリン)" [level=3]
+  - paragraph: "著者: レス・ギブリン、弓場隆"
+  - text: 📝 2 ハイライト 📅 2025/6/8
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 専門技術がすべてのように見える職業をひとつだけ挙げるとすれば、技術職だろう。ところが、パーデュー大学を卒業した技術者に関する５年以上にわたる詳細な記録によると、学生時代に最高の成績だった人の収入は、最低の成績だった人の収入と比較して、年収で２００ドルの差しかなかったという。つまり、高度な専門技術を身...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B097GQ1TWN
+  - button "🔗"
+  - img "任せるコツの表紙"
+  - text: その他
+  - heading "任せるコツ" [level=3]
+  - paragraph: "著者: 山本 渉"
+  - text: 📝 1 ハイライト 📅 2024/5/8
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "まずは人（「意欲」と「適正」）ありきで、そこに仕事をマッチングさせていきましょう。 これを実現するには人を見る洞察力と目利き力が必要です。 — location: [336](kindle://book?action=open&asin=B0C3GRMD7B&location=336) ^ref-3..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0C3GRMD7B
+  - button "🔗"
+  - img "優秀なプレーヤーは、なぜ優秀なマネージャーになれないのか？の表紙"
+  - text: その他
+  - heading "優秀なプレーヤーは、なぜ優秀なマネージャーになれないのか？" [level=3]
+  - paragraph: "著者: 柴田励司"
+  - text: 📝 1 ハイライト 📅 2024/6/18
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "マネージャーとして成果をあげていくには、まわりのメンバーから「この人と一緒に働きたい」と思われることが必要十分条件です。そうなる理由は二つ。一つは「この人みたいに仕事ができるようになりたい」という仕事上の尊敬を持た — location: [367](kindle://book?action=ope..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B01GH0MC8E
+  - button "🔗"
+  - img "努力革命 ラクをするから成果が出る！ アフターGPTの成長術 (幻冬舎単行本)の表紙"
+  - text: その他
+  - heading "努力革命 ラクをするから成果が出る！ アフターGPTの成長術 (幻冬舎単行本)" [level=3]
+  - paragraph: "著者: 尾原和啓、伊藤羊一"
+  - text: 📝 1 ハイライト 📅 2024/5/27
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "「お寿司」と「ベルトコンベア」を組み合わせて「回転寿司」のように、普段は組み合わせないものを組み合わせた結果生まれるアイデアを 10 個出してください。 — location: [1013](kindle://book?action=open&asin=B0D3LKM7H5&location=101..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0D3LKM7H5
+  - button "🔗"
+  - 'img "完訳 7つの習慣 人格主義の回復: Powerful Lessons in Personal Changeの表紙"'
+  - text: その他
+  - 'heading "完訳 7つの習慣 人格主義の回復: Powerful Lessons in Personal Change" [level=3]'
+  - paragraph: "著者: スティーブン・R・コヴィー、フランクリン・コヴィー・ジャパン"
+  - text: 📝 5 ハイライト 📅 2025/3/29
+  - heading "💡 ハイライト一覧 (5個)" [level=4]
+  - button "全て表示 (5)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "を実践するよう勧めた。息子が高校でクォーターバックになったときに初めて — location: [2803](kindle://book?action=open&asin=B00KFB5DJC&location=2803) ^ref-30621"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B00KFB5DJC
+  - button "🔗"
+  - img "強いビジネスパーソンを目指して鬱になった僕の 弱さ考の表紙"
+  - text: その他
+  - heading "強いビジネスパーソンを目指して鬱になった僕の 弱さ考" [level=3]
+  - paragraph: "著者: 井上 慎平"
+  - text: 📝 1 ハイライト 📅 2025/6/7
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "稲田が伝えてくれたのは、人々がますますコスパ・タイパ思考を無自覚に内面化していることの 時代性 だ。経済の影響力が大きくなった時代に、「絶対正義」である生産性を内面化すれば、必然的に未来のために今を使う〈前のめりの時間意識〉で過ごすことになる。 — location: [1030](kindle:/..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DF5SZXNQ
+  - button "🔗"
+  - img "残業学～明日からどう働くか、どう働いてもらうのか？～ (光文社新書)の表紙"
+  - text: その他
+  - heading "残業学～明日からどう働くか、どう働いてもらうのか？～ (光文社新書)" [level=3]
+  - paragraph: "著者: 中原 淳、パーソル総合研究所"
+  - text: 📝 1 ハイライト 📅 2024/9/4
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "① ジャッジ力……不確実な状況でも一貫した軸を持って迅速に状況判断・指示する能力 ② グリップ力……現場の状況や進捗を把握する能力 ③ チーム・アップ力……オープンで風通し良く、活発にコミュニケーションをする能力 — location: [2523](kindle://book?action=ope..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B07L5QHS62
+  - button "🔗"
+  - img "生き方の表紙"
+  - text: その他
+  - heading "生き方" [level=3]
+  - paragraph: "著者: 稲盛 和夫"
+  - text: 📝 3 ハイライト 📅 2024/7/7
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "人間として間違っていないか、根本の倫理や道徳に反していないか――私はこのことを生きるうえでもっとも大切なことだと肝に銘じ、人生を通じて必死に守ろうと努めてきたのです。 — location: [181](kindle://book?action=open&asin=B008BCCLBK&locati..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B008BCCLBK
+  - button "🔗"
+  - img "目標管理の教科書の表紙"
+  - text: その他
+  - heading "目標管理の教科書" [level=3]
+  - paragraph: "著者: 五十嵐 英憲"
+  - text: 📝 5 ハイライト 📅 2024/11/8
+  - heading "💡 ハイライト一覧 (5個)" [level=4]
+  - button "全て表示 (5)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 本当の目標管理はＭＢＯ-Ｓの実践である。それは人事評価とはまったくの別物で、働く人々の動機づけに主眼を置いたマネジメントの考え方と方法論だ。賃金格差をつけるための仕組みなどでは断じてない。それなのに、「両者は同じもの」という風潮が蔓延する。そしてＭＢＯ-Ｓまでもが嫌われ者になっててしまうのである。 ...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B00RUPCU0G
+  - button "🔗"
+  - img "確率思考の戦略論 どうすれば売上は増えるのかの表紙"
+  - text: その他
+  - heading "確率思考の戦略論 どうすれば売上は増えるのか" [level=3]
+  - paragraph: "著者: 森岡 毅、今西 聖貴"
+  - text: 📝 1 ハイライト 📅 2025/3/17
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "いる「広く浅く売るよりも、狭く深く売る方が効率が良い」という考え方は間違っている こと — location: [610](kindle://book?action=open&asin=B0DNYPKTQX&location=610) ^ref-2012"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DNYPKTQX
+  - button "🔗"
+  - img "管理職のチカラ――採用も、業績も、人材育成で変わるの表紙"
+  - text: その他
+  - heading "管理職のチカラ――採用も、業績も、人材育成で変わる" [level=3]
+  - paragraph: "著者: 関野 吉記"
+  - text: 📝 3 ハイライト 📅 2025/5/22
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "いままで企業が腰を据えて向き合ってはこなかった管理職が優秀な人材をマネジメントするスキルを学び、会社の魅力や仕事の楽しさを体現できるような存在となれば、その下層にも人を育てる文化・会社の魅力を伝えていく文化は広がり、根づいていく。 — location: [107](kindle://book?ac..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0D5H6YSN2
+  - button "🔗"
+  - img "自分でやった方が早い病 (星海社 e-SHINSHO)の表紙"
+  - text: その他
+  - heading "自分でやった方が早い病 (星海社 e-SHINSHO)" [level=3]
+  - paragraph: "著者: 小倉広"
+  - text: 📝 3 ハイライト 📅 2024/6/27
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "たとえば、部署が目標を達成して表彰されるときは、上司が表舞台に立つのではなく、部下を立たせるようにする。祝辞を述べたり、成功体験を発表するときも、上司がしゃべるのではなく、部下にしゃべらせるのです。 上司は、うまく陰に回って、目立たないようにすることが大切です。 — location: [799]..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B08HVNHSRQ
+  - button "🔗"
+  - img "自分の価値のつくりかたの表紙"
+  - text: その他
+  - heading "自分の価値のつくりかた" [level=3]
+  - paragraph: "著者: 安田雅彦"
+  - text: 📝 1 ハイライト 📅 2025/3/4
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: フィードバックをする側に立って考えてみましょう。フィードバックをするということは、相手のことを理解し、相手のために時間を取っているということです。つまり、どうすればあなたが成長できるかを熟慮して伝えてくれているわけなので、これは非常にありがたいことです。ポジティブに「ギフト」 として受け取りましょう...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DMZHSFFJ
+  - button "🔗"
+  - img "自分の時間を取り戻そう―――ゆとりも成功も手に入れられるたった1つの考え方の表紙"
+  - text: その他
+  - heading "自分の時間を取り戻そう―――ゆとりも成功も手に入れられるたった1つの考え方" [level=3]
+  - paragraph: "著者: ちきりん"
+  - text: 📝 1 ハイライト 📅 2024/2/18
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: アマゾンやグーグルが次々と投資をしている分野、そしてそこから生み出される驚異的な成果を見ていると、世界全体のお金の使い方としては彼らに納税をさせるより、研究開発のために自由に使ってもらったほうが人類のためになるのではないか、だってそのほうがはるかに生産性が高いじゃん、と思えたりもするのです。 — l...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B01N0GELY0
+  - button "🔗"
+  - img "苦しかったときの話をしようかの表紙"
+  - text: その他
+  - heading "苦しかったときの話をしようか" [level=3]
+  - paragraph: "著者: 森岡 毅"
+  - text: 📝 3 ハイライト 📅 2024/10/18
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "普通の人と同じようなことをしていたら、普通にしかなれない。人と違う結果を出したいなら、人と違うことをやるか、人と同じことを違うようにやるか、そのどちらかしかないのだ。 — location: [2180](kindle://book?action=open&asin=B07PQD5JMP&locat..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B07PQD5JMP
+  - button "🔗"
+  - img "越境学習入門の表紙"
+  - text: その他
+  - heading "越境学習入門" [level=3]
+  - paragraph: "著者: 石山恒貴、伊達洋駆"
+  - text: 📝 24 ハイライト 📅 2025/3/16
+  - heading "💡 ハイライト一覧 (24個)" [level=4]
+  - button "全て表示 (24)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "越境学習をホームとアウェイを往還する（行き来する）ことによる学びと定義します。 — location: [289](kindle://book?action=open&asin=B09T3L7TDK&location=289) ^ref-24449"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B09T3L7TDK
+  - button "🔗"
+  - img "部下をもったらいちばん最初に読む本の表紙"
+  - text: その他
+  - heading "部下をもったらいちばん最初に読む本" [level=3]
+  - paragraph: "著者: 橋本拓也"
+  - text: 📝 1 ハイライト 📅 2024/11/8
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "リードマネジメントでは真逆で「メンバーはマネジャーよりも有能であり、能力が高い」 と考えます。 — location: [704](kindle://book?action=open&asin=B0DK2XCZW2&location=704) ^ref-61242"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DK2XCZW2
+  - button "🔗"
+  - img "部下を育ててはいけない (SB新書)の表紙"
+  - text: その他
+  - heading "部下を育ててはいけない (SB新書)" [level=3]
+  - paragraph: "著者: 田端 信太郎"
+  - text: 📝 2 ハイライト 📅 2025/3/31
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: ソフトバンクホークス監督の工藤公康さんが「教えることなんてできない。本人にその気がなければ何を言っても同じです」と言っていたが、これはビジネスパーソンも同様だ。自ら学ぶ意欲のない部下を育てようというのははっきり言って時間の無駄。リーダーに求められているのは部下を育てること以上に、チームで成果を出すこ...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B08XBJS577
+  - button "🔗"
+  - img "部長の一流、二流、三流の表紙"
+  - text: その他
+  - heading "部長の一流、二流、三流" [level=3]
+  - paragraph: "著者: 志倉 康之"
+  - text: 📝 3 ハイライト 📅 2025/2/3
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 多くの出来事で自分以外に責任があることはたくさんあります。むしろそちらのほうが多いと思います。そのような際、自分に責任があると考えるのではなく、「自分以外に責任がある。しかしこの状況を変えるためのアクションを立案し、状況を少しでも変えよう」と思うようにしましょう。それが本当の意味での自責です。 — ...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0823HXVYG
+  - button "🔗"
+  - img "銀行マンの凄すぎる掟の表紙"
+  - text: その他
+  - heading "銀行マンの凄すぎる掟" [level=3]
+  - paragraph: "著者: 猫山課長"
+  - text: 📝 1 ハイライト 📅 2023/12/15
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 自分も不機嫌人間かもしれないという方。あなたはもう、そこから卒業しなければなりません。 関係をもつことができた人たち全員と連携するつもりで、誠意と笑顔を振りまきましょう。 それが、不機嫌戦略よりもよっぽど有効で、クレバーな生存戦略です。その積み重ねは、必ずあなたを助けます。人は、自分を尊重してくれる...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CLRKMWDM
+  - button "🔗"
+  - img "静かに退職する若者たち 部下との1on1の前に知っておいてほしいことの表紙"
+  - text: その他
+  - heading "静かに退職する若者たち 部下との1on1の前に知っておいてほしいこと" [level=3]
+  - paragraph: "著者: 金間 大介"
+  - text: 📝 3 ハイライト 📅 2024/6/19
+  - heading "💡 ハイライト一覧 (3個)" [level=4]
+  - button "全て表示 (3)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "上司やリーダーは、可能な限り、評価的要素を排除して、端的な情報のフィードバックに努めよう。理想は、シューティングゲームの得点スコア、ロールプレイングゲームの経験値、自動車のタコメーター、散歩時における万歩計だ。 — location: [555](kindle://book?action=open&..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CSCG6FKK
+  - button "🔗"
+  - img "鬼時短―電通で「残業６０％減、成果はアップ」を実現した８鉄則の表紙"
+  - text: その他
+  - heading "鬼時短―電通で「残業６０％減、成果はアップ」を実現した８鉄則" [level=3]
+  - paragraph: "著者: 小柳 はじめ"
+  - text: 📝 1 ハイライト 📅 2024/3/30
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "① 時短は「社員のムダな動きをやめさせる」ことではない ② 時短は「会社が社員に強いているムダをなくす」ことである ③ 時短は「会社から社員への最高のもてなし（リスペクト）」である — location: [35](kindle://book?action=open&asin=B0CQZFNCT2&..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CQZFNCT2
+  - button "🔗"
+  - img "NO RULES(ノー・ルールズ) 世界一「自由」な会社、NETFLIX (日本経済新聞出版)の表紙"
+  - text: お金・投資
+  - heading "NO RULES(ノー・ルールズ) 世界一「自由」な会社、NETFLIX (日本経済新聞出版)" [level=3]
+  - paragraph: "著者: リード・ヘイスティングス、エリン・メイヤー、土方奈美"
+  - text: 📝 10 ハイライト 📅 2024/3/13
+  - heading "💡 ハイライト一覧 (10個)" [level=4]
+  - button "全て表示 (10)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "相手に面と向かって言えることしか口にしない」という標語だ。 — location: [491](kindle://book?action=open&asin=B08LDBNG74&location=491) ^ref-30645"
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B08LDBNG74
+  - button "🔗"
+  - 'img "きみのお金は誰のため: ボスが教えてくれた「お金の謎」と「社会のしくみ」【読者が選ぶビジネス書グランプリ2024 総合グランプリ「第１位」受賞作】の表紙"'
+  - text: お金・投資
+  - 'heading "きみのお金は誰のため: ボスが教えてくれた「お金の謎」と「社会のしくみ」【読者が選ぶビジネス書グランプリ2024 総合グランプリ「第１位」受賞作】" [level=3]'
+  - paragraph: "著者: 田内 学"
+  - text: 📝 1 ハイライト 📅 2024/1/1
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "その働く行為に、お金が 絡むかどうかは本質的には関係ない。 1 人ひとりが誰かの問題を解決しているから、僕らの社会は成り立っている。何度も言うように、お金が社会を支えているわけやない。 — location: [2456](kindle://book?action=open&asin=B0CG5..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CG5PLGFN
+  - button "🔗"
+  - img "勝間式生き方の知見 お金と幸せを同時に手に入れる５５の方法の表紙"
+  - text: お金・投資
+  - heading "勝間式生き方の知見 お金と幸せを同時に手に入れる５５の方法" [level=3]
+  - paragraph: "著者: 勝間 和代"
+  - text: 📝 8 ハイライト 📅 2023/10/23
+  - heading "💡 ハイライト一覧 (8個)" [level=4]
+  - button "全て表示 (8)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "ＳＮＳへの投稿は、 良くも悪くも反応がないのが当たり前、というのをデフォルトにしています。たいていの人は、他人にそこまで興味を持っていません。たまたま自分が興味のあることを、誰かが投稿していてマッチングが起きる＝「いいね！」がつくだけなのです。 — location: [391](kindle://..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B09F5LZTV3
+  - button "🔗"
+  - img "戦略の要諦 (日本経済新聞出版)の表紙"
+  - text: お金・投資
+  - heading "戦略の要諦 (日本経済新聞出版)" [level=3]
+  - paragraph: "著者: リチャード・Ｐ・ルメルト、村井章子"
+  - text: 📝 6 ハイライト 📅 2024/4/28
+  - heading "💡 ハイライト一覧 (6個)" [level=4]
+  - button "全て表示 (6)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 最も大きい収穫が得られる行動、経済用語で言うなら効用を最大化できる行動を選びなさい。これはつまり、行動の選択肢がいくつかあって、それを一つひとつ吟味し、いちばん良さそうなものを 選ぶ ということだ。だが経験豊富な経営者でなくとも、それはおかしいと気づくだろう。いったいその「選択肢」はどこから来たのか...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CNSWLW1Y
+  - button "🔗"
+  - img "私の財産告白 近代経済人文庫の表紙"
+  - text: お金・投資
+  - heading "私の財産告白 近代経済人文庫" [level=3]
+  - paragraph: "著者: 本多静六、近代経済人文庫編集部"
+  - text: 📝 1 ハイライト 📅 2025/2/4
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "もし欠点があれば、その欠点を指摘し、矯正するように注意してやることである。上役が自分の長所を認めていてくれると知れば、だれしもわるい気持ちのしないのが人情である。 — location: [1487](kindle://book?action=open&asin=B0BN3ZX5DF&locatio..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0BN3ZX5DF
+  - button "🔗"
+  - img "経済評論家の父から息子への手紙 お金と人生と幸せについての表紙"
+  - text: お金・投資
+  - heading "経済評論家の父から息子への手紙 お金と人生と幸せについて" [level=3]
+  - paragraph: "著者: 山崎元"
+  - text: 📝 2 ハイライト 📅 2024/3/21
+  - heading "💡 ハイライト一覧 (2個)" [level=4]
+  - button "全て表示 (2)"
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: "一方、働く側から見ると、自分自身が「他人と取り替え可能な労働者」にならないような工夫が必要だということだ。 労働者に限らず、工夫のない人は損をする。これは、責任論以前の経済の現実だ。他人と同じであることを恐れよ。無難を疑え。 — location: [617](kindle://book?actio..."
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0CS23X8S6
+  - button "🔗"
+  - img "親子で学ぶ どうしたらお金持ちになれるの？ ――人生という「リアルなゲーム」の攻略法の表紙"
+  - text: お金・投資
+  - heading "親子で学ぶ どうしたらお金持ちになれるの？ ――人生という「リアルなゲーム」の攻略法" [level=3]
+  - paragraph: "著者: 橘玲"
+  - text: 📝 1 ハイライト 📅 2025/1/28
+  - heading "💡 ハイライト一覧 (1個)" [level=4]
+  - blockquote:
+    - text: "#1"
+    - button "📋"
+    - text: 晩ごはんの後片づけをすると、１日１００円のおこづかいがもらえる。この１００円はすぐに使ってしまうこともできれば、そのまま取っておくこともできる。お金を１日取っておくと、その１割（１００円なら 10 円）をおまけとしてもらえる。このルールで、晩ごはんの後片づけを１カ月続けるとどうなるだろうか。 — l...
+  - link "🛒 Amazon で見る":
+    - /url: https://www.amazon.co.jp/dp/B0DL54D7ZV
+  - button "🔗"
+- contentinfo:
+  - text: 📚 Kindle書籍コレクション
+  - paragraph: このサイトはKindleで読んだ書籍の個人的なコレクションです。
+  - paragraph: 書籍の詳細情報は各Amazonリンクからご確認ください。
+- alert
+```
+
+# Test source
+
+```ts
+   1 | const { test, expect } = require('@playwright/test');
+   2 |
+   3 | // 100種類の検索単語
+   4 | const searchTerms = [
+   5 |   // ビジネス・マネジメント関連
+   6 |   "マネジメント", "リーダーシップ", "プロジェクト", "戦略", "組織",
+   7 |   "コミュニケーション", "チーム", "目標", "成果", "評価",
+   8 |   "人材", "採用", "育成", "研修", "スキル", "能力", "成長",
+   9 |   "生産性", "効率", "改善",
+  10 |   
+  11 |   // 技術・エンジニア関連
+  12 |   "エンジニア", "開発", "プログラミング", "システム", "データ",
+  13 |   "AI", "機械学習", "自動化", "設計", "アーキテクチャ",
+  14 |   "コード", "テスト", "品質", "セキュリティ", "インフラ",
+  15 |   "クラウド", "DevOps", "アジャイル", "スクラム", "CI/CD",
+  16 |   
+  17 |   // キャリア・働き方関連
+  18 |   "キャリア", "転職", "昇進", "昇格", "出世",
+  19 |   "働き方", "ワークライフバランス", "リモートワーク", "在宅勤務",
+  20 |   "フリーランス", "副業", "起業", "独立", "スタートアップ",
+  21 |   "ベンチャー", "イノベーション", "創造性", "企画", "提案", "プレゼン",
+  22 |   
+  23 |   // お金・投資関連
+  24 |   "投資", "資産", "運用", "株式", "債券", "不動産",
+  25 |   "仮想通貨", "暗号資産", "FX", "為替", "金融", "経済",
+  26 |   "市場", "分析", "リスク", "リターン", "ポートフォリオ",
+  27 |   "分散投資", "長期投資", "短期投資",
+  28 |   
+  29 |   // その他・一般関連
+  30 |   "思考", "判断", "決断", "問題解決", "課題", "解決",
+  31 |   "コミュニティ", "ネットワーク", "関係", "信頼", "協力",
+  32 |   "学習", "知識", "スキルアップ", "自己啓発", "成長",
+  33 |   "時間", "効率", "生産性", "最適化", "改善",
+  34 |   "健康", "ストレス", "メンタル", "バランス", "ライフスタイル"
+  35 | ];
+  36 |
+  37 | test.describe('100種類の検索単語テスト', () => {
+  38 |   test.beforeEach(async ({ page }) => {
+  39 |     await page.goto('http://localhost:3000');
+  40 |     // データ読み込み完了を待つ
+  41 |     await page.waitForSelector(':text("総書籍数")', { timeout: 30000 });
+  42 |   });
+  43 |
+  44 |   searchTerms.forEach((searchTerm, index) => {
+  45 |     test(`検索テスト ${index + 1}: "${searchTerm}"`, async ({ page }) => {
+  46 |       // 検索フォームをクリアしてから入力
+  47 |       const searchInput = page.locator('textbox[aria-label*="書籍を検索"]');
+> 48 |       await searchInput.clear();
+     |                         ^ Error: locator.clear: Test timeout of 30000ms exceeded.
+  49 |       await searchInput.fill(searchTerm);
+  50 |       
+  51 |       // 検索結果が表示されるのを少し待つ
+  52 |       await page.waitForTimeout(500);
+  53 |       
+  54 |       // 結果表示を確認
+  55 |       const resultElement = page.locator(':text("冊の書籍が見つかりました")');
+  56 |       await expect(resultElement).toBeVisible();
+  57 |       
+  58 |       // 結果をログに出力
+  59 |       const resultText = await resultElement.textContent();
+  60 |       console.log(`検索語: "${searchTerm}" - 結果: ${resultText}`);
+  61 |     });
+  62 |   });
+  63 | }); 
+```

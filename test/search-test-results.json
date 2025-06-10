@@ -1,0 +1,772 @@
+[
+  {
+    "index": 1,
+    "searchTerm": "マネジメント",
+    "error": "page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[placeholder=\"🔍 書籍を検索\"]')\u001b[22m\n",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 2,
+    "searchTerm": "リーダーシップ",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 3,
+    "searchTerm": "プロジェクト",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 4,
+    "searchTerm": "戦略",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 5,
+    "searchTerm": "組織",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 6,
+    "searchTerm": "コミュニケーション",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 7,
+    "searchTerm": "チーム",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 8,
+    "searchTerm": "目標",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 9,
+    "searchTerm": "成果",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 10,
+    "searchTerm": "評価",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 11,
+    "searchTerm": "人材",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 12,
+    "searchTerm": "採用",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 13,
+    "searchTerm": "育成",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 14,
+    "searchTerm": "研修",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 15,
+    "searchTerm": "スキル",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 16,
+    "searchTerm": "能力",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 17,
+    "searchTerm": "成長",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 18,
+    "searchTerm": "生産性",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 19,
+    "searchTerm": "効率",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 20,
+    "searchTerm": "改善",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 21,
+    "searchTerm": "エンジニア",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 22,
+    "searchTerm": "開発",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 23,
+    "searchTerm": "プログラミング",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 24,
+    "searchTerm": "システム",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 25,
+    "searchTerm": "データ",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 26,
+    "searchTerm": "AI",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 27,
+    "searchTerm": "機械学習",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 28,
+    "searchTerm": "自動化",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 29,
+    "searchTerm": "設計",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 30,
+    "searchTerm": "アーキテクチャ",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 31,
+    "searchTerm": "コード",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 32,
+    "searchTerm": "テスト",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 33,
+    "searchTerm": "品質",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 34,
+    "searchTerm": "セキュリティ",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 35,
+    "searchTerm": "インフラ",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 36,
+    "searchTerm": "クラウド",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 37,
+    "searchTerm": "DevOps",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 38,
+    "searchTerm": "アジャイル",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 39,
+    "searchTerm": "スクラム",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 40,
+    "searchTerm": "CI/CD",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 41,
+    "searchTerm": "キャリア",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 42,
+    "searchTerm": "転職",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 43,
+    "searchTerm": "昇進",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 44,
+    "searchTerm": "昇格",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 45,
+    "searchTerm": "出世",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 46,
+    "searchTerm": "働き方",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 47,
+    "searchTerm": "ワークライフバランス",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 48,
+    "searchTerm": "リモートワーク",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 49,
+    "searchTerm": "在宅勤務",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 50,
+    "searchTerm": "フリーランス",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 51,
+    "searchTerm": "副業",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 52,
+    "searchTerm": "起業",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 53,
+    "searchTerm": "独立",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 54,
+    "searchTerm": "スタートアップ",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 55,
+    "searchTerm": "ベンチャー",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 56,
+    "searchTerm": "イノベーション",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 57,
+    "searchTerm": "創造性",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 58,
+    "searchTerm": "企画",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 59,
+    "searchTerm": "提案",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 60,
+    "searchTerm": "プレゼン",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 61,
+    "searchTerm": "投資",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 62,
+    "searchTerm": "資産",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 63,
+    "searchTerm": "運用",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 64,
+    "searchTerm": "株式",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 65,
+    "searchTerm": "債券",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 66,
+    "searchTerm": "不動産",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 67,
+    "searchTerm": "仮想通貨",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 68,
+    "searchTerm": "暗号資産",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 69,
+    "searchTerm": "FX",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 70,
+    "searchTerm": "為替",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 71,
+    "searchTerm": "金融",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 72,
+    "searchTerm": "経済",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 73,
+    "searchTerm": "市場",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 74,
+    "searchTerm": "分析",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 75,
+    "searchTerm": "リスク",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 76,
+    "searchTerm": "リターン",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 77,
+    "searchTerm": "ポートフォリオ",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 78,
+    "searchTerm": "分散投資",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 79,
+    "searchTerm": "長期投資",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 80,
+    "searchTerm": "短期投資",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 81,
+    "searchTerm": "思考",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 82,
+    "searchTerm": "判断",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 83,
+    "searchTerm": "決断",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 84,
+    "searchTerm": "問題解決",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 85,
+    "searchTerm": "課題",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 86,
+    "searchTerm": "解決",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 87,
+    "searchTerm": "改革",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 88,
+    "searchTerm": "変革",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 89,
+    "searchTerm": "変化",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 90,
+    "searchTerm": "適応",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 91,
+    "searchTerm": "学習",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 92,
+    "searchTerm": "教育",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 93,
+    "searchTerm": "知識",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 94,
+    "searchTerm": "情報",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 95,
+    "searchTerm": "データ分析",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 96,
+    "searchTerm": "統計",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 97,
+    "searchTerm": "数値",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 98,
+    "searchTerm": "計測",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 99,
+    "searchTerm": "指標",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 100,
+    "searchTerm": "KPI",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 101,
+    "searchTerm": "ROI",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 102,
+    "searchTerm": "売上",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 103,
+    "searchTerm": "利益",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 104,
+    "searchTerm": "収益",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 105,
+    "searchTerm": "コスト",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 106,
+    "searchTerm": "予算",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 107,
+    "searchTerm": "計画",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 108,
+    "searchTerm": "実行",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 109,
+    "searchTerm": "監視",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  },
+  {
+    "index": 110,
+    "searchTerm": "報告",
+    "error": "page.fill: Target page, context or browser has been closed",
+    "timestamp": "6/10/2025, 10:39:11 PM",
+    "success": false
+  }
+]

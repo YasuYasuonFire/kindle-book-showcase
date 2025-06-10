@@ -1,0 +1,27 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="0.626674">
+<testsuite name="search-100-words.spec.js" timestamp="2025-06-10T13:37:08.928Z" hostname="chromium" tests="1" failures="1" skipped="0" time="0.004" errors="0">
+<testcase name="書籍検索機能 - 100種類の検索単語テスト › 100種類の検索単語でテスト実行" classname="search-100-words.spec.js" time="0.004">
+<failure message="search-100-words.spec.js:45:3 100種類の検索単語でテスト実行" type="FAILURE">
+<![CDATA[  [chromium] › search-100-words.spec.js:45:3 › 書籍検索機能 - 100種類の検索単語テスト › 100種類の検索単語でテスト実行 ───────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/yasuyasu/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results/search-100-words-書籍検索機能---100種類の検索単語テスト-100種類の検索単語でテスト実行-chromium/error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/search-100-words-書籍検索機能---100種類の検索単語テスト-100種類の検索単語でテスト実行-chromium/error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
