@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import BookCard from '@/components/BookCard';
+import RecentArticles from '@/components/RecentArticles';
 
 interface Book {
   id: string;
@@ -134,6 +135,9 @@ export default function HomePage() {
 
   return (
     <div className="space-y-8">
+      {/* 最近の新着 */}
+      <RecentArticles books={books} />
+      
       {/* 統計情報 */}
       <div className="stats-grid">
         <div className="stat-card group">
