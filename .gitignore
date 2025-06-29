@@ -36,3 +36,6 @@ next-env.d.ts
 
 # data (will be generated during build)
 /data/books.json 
+# Playwright reports
+playwright-report/
+test-results/
