@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import AccessCounter from '@/components/AccessCounter'
 
 export const metadata: Metadata = {
   title: 'Kindle書籍コレクション | ビジネス・自己啓発書の紹介',
@@ -71,6 +72,11 @@ export default function RootLayout({
               <div className="text-gray-600 text-sm space-y-2 max-w-md mx-auto">
                 <p className="font-medium">このサイトはKindleで読んだ書籍の個人的なコレクションです。</p>
                 <p>書籍の詳細情報は各Amazonリンクからご確認ください。</p>
+              </div>
+              
+              {/* フッターにもアクセスカウンター */}
+              <div className="mt-8 flex justify-center">
+                <AccessCounter className="retro-footer-counter" />
               </div>
             </div>
           </div>
