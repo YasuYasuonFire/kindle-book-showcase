@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import BookCard from '@/components/BookCard';
 import RecentArticles from '@/components/RecentArticles';
+import AccessCounter from '@/components/AccessCounter';
 
 interface Book {
   id: string;
@@ -180,6 +181,11 @@ export default function HomePage() {
           </div>
           <div className="stat-label">平均ハイライト数</div>
         </div>
+      </div>
+
+      {/* アクセスカウンター */}
+      <div className="flex justify-center">
+        <AccessCounter />
       </div>
 
       {/* フィルターとサーチ */}
