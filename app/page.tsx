@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import BookCard from '@/components/BookCard';
 import RecentArticles from '@/components/RecentArticles';
 import AccessCounter from '@/components/AccessCounter';
+import HighlightInsights from '@/components/HighlightInsights';
 
 interface Book {
   id: string;
@@ -187,6 +188,9 @@ export default function HomePage() {
       <div className="flex justify-center">
         <AccessCounter />
       </div>
+
+      {/* ハイライト インサイト */}
+      <HighlightInsights books={books} />
 
       {/* フィルターとサーチ */}
       <div className="search-container">
